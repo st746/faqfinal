@@ -6,6 +6,8 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AnswersTableSeeder' => $baseDir . '/database/seeds/AnswersTableSeeder.php',
+    'App\\Answer' => $baseDir . '/app/Answer.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -4078,7 +4080,10 @@ return array(
     'Tests\\CreatesApplication' => $baseDir . '/tests/CreatesApplication.php',
     'Tests\\Feature\\ExampleTest' => $baseDir . '/tests/Feature/ExampleTest.php',
     'Tests\\TestCase' => $baseDir . '/tests/TestCase.php',
+    'Tests\\Unit\\AnswerTest' => $baseDir . '/tests/Unit/AnswerTest.php',
     'Tests\\Unit\\ExampleTest' => $baseDir . '/tests/Unit/ExampleTest.php',
+    'Tests\\Unit\\QuestionTest' => $baseDir . '/tests/Unit/QuestionTest.php',
+    'Tests\\Unit\\UserTest' => $baseDir . '/tests/Unit/UserTest.php',
     'Tests\\Unit\\profile' => $baseDir . '/tests/Unit/profile.php',
     'Text_Template' => $vendorDir . '/phpunit/php-text-template/src/Template.php',
     'TheSeer\\Tokenizer\\Exception' => $vendorDir . '/theseer/tokenizer/src/Exception.php',

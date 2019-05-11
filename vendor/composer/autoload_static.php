@@ -432,6 +432,8 @@ class ComposerStaticInit8a61a8175d5d1ada1a60da3d5e21d628
     );
 
     public static $classMap = array (
+        'AnswersTableSeeder' => __DIR__ . '/../..' . '/database/seeds/AnswersTableSeeder.php',
+        'App\\Answer' => __DIR__ . '/../..' . '/app/Answer.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -4504,7 +4506,10 @@ class ComposerStaticInit8a61a8175d5d1ada1a60da3d5e21d628
         'Tests\\CreatesApplication' => __DIR__ . '/../..' . '/tests/CreatesApplication.php',
         'Tests\\Feature\\ExampleTest' => __DIR__ . '/../..' . '/tests/Feature/ExampleTest.php',
         'Tests\\TestCase' => __DIR__ . '/../..' . '/tests/TestCase.php',
+        'Tests\\Unit\\AnswerTest' => __DIR__ . '/../..' . '/tests/Unit/AnswerTest.php',
         'Tests\\Unit\\ExampleTest' => __DIR__ . '/../..' . '/tests/Unit/ExampleTest.php',
+        'Tests\\Unit\\QuestionTest' => __DIR__ . '/../..' . '/tests/Unit/QuestionTest.php',
+        'Tests\\Unit\\UserTest' => __DIR__ . '/../..' . '/tests/Unit/UserTest.php',
         'Tests\\Unit\\profile' => __DIR__ . '/../..' . '/tests/Unit/profile.php',
         'Text_Template' => __DIR__ . '/..' . '/phpunit/php-text-template/src/Template.php',
         'TheSeer\\Tokenizer\\Exception' => __DIR__ . '/..' . '/theseer/tokenizer/src/Exception.php',
